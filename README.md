@@ -11,9 +11,19 @@ This Python script retrieves a one-time passcode (OTP) from the latest email in 
 * Prints the passcode if executed directly.
 
 ## Summary of App.java
-This Java program runs the extractPasscode.py script and displays its output. It:
+This is Java example to embed the extractPasscode.py script and displays its output.
 
 * Executes the Python script using Runtime.getRuntime().exec().
 * Captures and prints the script's output line-by-line.
 * Waits for the process to complete and checks its exit code.
 * Handles errors and exceptions with a try-catch block.
+
+## Build and Excute
+
+1. Clone the project
+2. Build the java example
+3. Exectue the java example
+
+## References:
+
+* Download and install Microsoft Outlook Desktop Version 16.X 
