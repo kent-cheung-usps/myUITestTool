@@ -36,8 +36,8 @@ This is Java example to embed the extractPasscode.py script and displays its out
 4. Windows Environment
 ### Run
 ```
-java -jar target
+java -jar target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
 
 ## References:
-
 * Download and install Microsoft Outlook Desktop Version 16.X https://usps365.sharepoint.com/:u:/r/sites/PPCOnboardingTool/Shared%20Documents/General/Misc_Tools/OfficeSetup.exe?csf=1&web=1&e=djkoKy
