@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gundam.app</groupId>
-  <artifactId>ui-test</artifactId>
+  <artifactId>demo</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>ui-test</name>
+  <name>deno</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
