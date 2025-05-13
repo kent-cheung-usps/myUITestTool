@@ -18,12 +18,26 @@ This is Java example to embed the extractPasscode.py script and displays its out
 * Waits for the process to complete and checks its exit code.
 * Handles errors and exceptions with a try-catch block.
 
-## Build and Excute
+## Build
 
 1. Clone the project
-2. Build the java example
-3. Exectue the java example
+   ```
+   git clone https://github.com/kent-cheung-usps/myUITestTool.git
+   ```
+3. Build the java example
+   ```
+   mvn clean install
+   ```
+## Execute
+### Prerequisities
+1. Desktop version 16 Microsoft Outlook with enabled COM object.
+2. JDK 17
+3. Python 3
+4. Windows Environment
+### Run
+```
+java -jar target
 
 ## References:
 
-* Download and install Microsoft Outlook Desktop Version 16.X 
+* Download and install Microsoft Outlook Desktop Version 16.X https://usps365.sharepoint.com/:u:/r/sites/PPCOnboardingTool/Shared%20Documents/General/Misc_Tools/OfficeSetup.exe?csf=1&web=1&e=djkoKy
