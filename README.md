@@ -33,7 +33,7 @@ This is Java example to embed the extractPasscode.py script and displays its out
 1. Desktop version 16 Microsoft Outlook with enabled COM object.
 2. JDK 17
 3. Python 3
-4. Windows Environment
+4. Windows Environment ONLY
 ### Run
 ```
 java -jar target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar
