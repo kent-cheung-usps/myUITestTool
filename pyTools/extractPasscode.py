@@ -2,6 +2,7 @@ import re
 import win32com.client
 
 def get_passcode():
+    subject = "USPS.com Multifactor Authentication"
     outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
     inbox = outlook.GetDefaultFolder(6)  # 6 refers to the Inbox folder
     messages = inbox.Items
@@ -9,7 +10,7 @@ def get_passcode():
     latest_message = messages.GetFirst()  # Get the most recent email
 
     # Check if the subject matches "USPS.com Multifactor Authentication"
-    if latest_message.Subject == "[EXTERNAL] USPS.com Multifactor Authentication":
+    if subject in latest_message.Subject:
         body = latest_message.Body
 
         # Use regex to extract the passcode
