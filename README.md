@@ -1,5 +1,5 @@
-# myUITestTool
-Quick RAD Tools: Design and execute specific in Windows Environment.
+# Disclaimer
+**Use at Your Own Risk** – These scripts are provided without warranties and are intended for informational and experimental use only. The author assumes no responsibility for any issues, including but not limited to errors, data loss, security risks, or unintended consequences resulting from their use. Users should exercise due diligence, test thoroughly, and ensure compatibility with their own environments before implementation.
 
 ## Summary of extractPasscode.py
 This Python script retrieves a one-time passcode (OTP) from the latest email in Classic Outlook via COM object if it matches the subject "[EXTERNAL] USPS.com Multifactor Authentication".
